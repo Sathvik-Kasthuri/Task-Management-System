@@ -15,7 +15,7 @@ GitHub Repository
 
 https://github.com/Sathvik-Kasthuri/Task-Management-System
 
-Features
+Features 🚀
 
 Authentication
 
@@ -86,7 +86,7 @@ Search and filter controls
 
 Analytics section
 
-Tech Stack
+Tech Stack 🛠️
 
 Frontend
 
@@ -114,7 +114,7 @@ JWT
 
 bcrypt
 
-Deployment
+Deployment 🌐
 
 Frontend: Netlify
 
@@ -132,7 +132,7 @@ Postman
 
 VS Code
 
-Project Structure
+Project Structure 📁
 
 Task-Management-System/
 │
@@ -157,7 +157,7 @@ Task-Management-System/
 │
 └── README.md
 
-Setup Instructions
+Setup Instructions ⚙️
 
 1. Clone the repository
 
@@ -195,7 +195,7 @@ The frontend will run on the Vite development server, usually:
 
 http://localhost:5173
 
-API Endpoints
+API Endpoints 🔗
 
 Authentication
 
@@ -225,7 +225,7 @@ The task GET endpoint supports:
 
 Multiple filters can also be combined.
 
-Task Fields
+Task Fields 📋
 
 Each task contains:
 
@@ -238,7 +238,7 @@ priority      String     low, medium, or high
 dueDate       Date       Task due date
 user          ObjectId   User who owns the task
 
-Authentication Flow
+Authentication Flow 🔐
 
 User creates an account through Signup.
 
@@ -255,7 +255,7 @@ Protected task requests include the authentication token.
 The backend identifies the logged-in user and only returns that
 user's tasks.
 
-Design Decisions
+Design Decisions 💡
 
 JWT Authentication
 
@@ -284,7 +284,7 @@ MongoDB was selected for storing users and tasks because it integrates
 naturally with the Node.js/Mongoose backend and provides a flexible
 document-based structure.
 
-Deployment
+Deployment 🌐
 
 Frontend
 
@@ -304,7 +304,7 @@ Database
 
 MongoDB Atlas is used as the production database.
 
-Security
+Security 🛡️
 
 Passwords are hashed before storing them.
 
@@ -316,7 +316,7 @@ Environment variables are used for sensitive backend configuration.
 
 .env and node_modules are excluded from Git using .gitignore.
 
-Future Enhancements
+Future Enhancements 🔮
 
 Task reminders and email notifications
 
@@ -332,7 +332,7 @@ Role-based access control
 
 More advanced task statistics
 
-Author
+Author 👨‍💻
 
 Sathvik Kasthuri
 
@@ -340,7 +340,7 @@ B.Tech - Artificial Intelligence and Data Science
 
 GitHub: https://github.com/Sathvik-Kasthuri
 
-Submission
+Submission ✅
 
 This project includes:
 
